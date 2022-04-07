@@ -29,7 +29,7 @@ const Navbar = () => {
           alignItems: { xs: "center", sm: "center", md: "flex-end" },
         }}
       >
-        <h1>hellow orld</h1>
+        <h1>Joshua Constine</h1>
       </Container>
     </AppBar>
   );
