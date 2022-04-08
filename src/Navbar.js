@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   Container,
   AppBar,
@@ -12,14 +12,39 @@ import "./App.css";
 
 const Navbar = () => {
   //we take in logout and current user so our navbar can display accuratley
-  function scrollFunction1(name) {
+  const [classNames, setClassNames] = useState([
+    "selected",
+    "",
+    "",
+    "",
+    "",
+    "",
+  ]);
+
+  function scrollFunction1(event, name, i) {
+    event.preventDefault();
+
+    event.target.className = name + " selected";
     let e = document.getElementById(name);
     e.scrollIntoView({
       block: "start",
       behavior: "smooth",
       inline: "start",
     });
+    handleSelected(i);
   }
+  function handleSelected(i) {
+    let data = [];
+    classNames.map((elem, index) => {
+      if (index === i) {
+        data.push("selected");
+      } else {
+        data.push("");
+      }
+    });
+    setClassNames(data);
+  }
+
   return (
     // <>
     <AppBar
@@ -58,22 +83,40 @@ const Navbar = () => {
           alignItems: "flex-end",
         }}
       >
-        <h6 onClick={() => scrollFunction1("about")} className="links">
+        <h6
+          onClick={(e) => scrollFunction1(e, "about", 0)}
+          className={`links ${classNames[0]}`}
+        >
           About
         </h6>
-        <h6 onClick={() => scrollFunction1("experience")} className="links">
+        <h6
+          onClick={(e) => scrollFunction1(e, "experience", 1)}
+          className={`links ${classNames[1]}`}
+        >
           Experience
         </h6>
-        <h6 onClick={() => scrollFunction1("education")} className="links">
+        <h6
+          onClick={(e) => scrollFunction1(e, "education", 2)}
+          className={`links ${classNames[2]}`}
+        >
           Education
         </h6>
-        <h6 onClick={() => scrollFunction1("projects")} className="links">
+        <h6
+          onClick={(e) => scrollFunction1(e, "projects", 3)}
+          className={`links ${classNames[3]}`}
+        >
           Projects
         </h6>
-        <h6 onClick={() => scrollFunction1("skills")} className="links">
+        <h6
+          onClick={(e) => scrollFunction1(e, "skills", 4)}
+          className={`links ${classNames[4]}`}
+        >
           Skills
         </h6>
-        <h6 onClick={() => scrollFunction1("contact")} className="links">
+        <h6
+          onClick={(e) => scrollFunction1(e, "contact", 5)}
+          className={`links ${classNames[5]}`}
+        >
           Contact
         </h6>
       </Box>

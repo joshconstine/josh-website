@@ -10,13 +10,10 @@ function App() {
   return (
     <div className="App">
       <Box className="Appbody">
-        <h2>Joshua Constine</h2>
+        <h2 id="about">Joshua Constine</h2>
 
         <img src="faceShot.jpg" alt="img" className="img" />
 
-        <a id="about" className="sections">
-          About
-        </a>
         <About />
         <a id="experience" className="sections">
           Experience

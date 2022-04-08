@@ -46,9 +46,7 @@ a:visited {
   text-decoration: none;
   display: inline-block;
 }
-a:hover {
-  color: grey;
-}
+
 .projectContainer {
   background-color: lightgray;
   width: 80%;
@@ -62,11 +60,52 @@ a:hover {
   margin: 0;
 }
 .font {
-  color: red;
+  color: white;
 }
 .sections {
-  padding: 150px;
+  padding-top: 100px;
+  padding-bottom: 20px;
 }
 .links {
   cursor: pointer;
+}
+.selected {
+  color: #d5a9e9;
+}
+a {
+  font-size: 30px;
+}
+p {
+  font-size: 15px;
+}
+.paragraph {
+  max-width: 500px;
+  align-self: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.smallBoxContainer {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  width: 80%;
+  align-self: center;
+}
+.smallBox {
+  display: flex;
+  width: 25%;
+  padding: 15px;
+}
+.verticalLine {
+  height: 160px;
+  width: 1px;
+  border: 1px;
+  background-color: white;
+}
+.spaceAbove {
+  padding-top: 60px;
 }
