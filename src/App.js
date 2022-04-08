@@ -11,8 +11,9 @@ function App() {
     <div className="App">
       <Box className="Appbody">
         <h2 id="about">Joshua Constine</h2>
-
-        <img src="faceShot.jpg" alt="img" className="img" />
+        <Box>
+          <img src="faceShot.jpg" alt="img" className="img" />
+        </Box>
 
         <About />
         <a id="experience" className="sections">

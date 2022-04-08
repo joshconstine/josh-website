@@ -1,7 +1,43 @@
 import "./App.css";
-import { Box } from "@mui/material";
-
+import React, { useState } from "react";
+import {
+  Typography,
+  Box,
+  Button,
+  Table,
+  TableRow,
+  TableHead,
+  TableCell,
+  TableContainer,
+  TableBody,
+  FormControl,
+  InputLabel,
+  Input,
+  FormHelperText,
+  Card,
+  CardHeader,
+  IconButton,
+  CardContent,
+  CardActions,
+  SvgIcon,
+} from "@mui/material";
+import styled from "@emotion/styled";
+import Collapse from "@mui/material/Collapse";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 function About() {
+  const [expanded, setExpanded] = React.useState(false);
+  const [expandedFourm, setExpandedfourm] = React.useState(false);
+
+  const ExpandMore = styled((props) => {
+    const { expand, ...other } = props;
+    return <IconButton {...other} />;
+  })(({ theme, expand }) => ({
+    transform: !expand ? "rotate(0deg)" : "rotate(180deg)",
+    marginLeft: "auto",
+  }));
+  const handleExpandClick = () => {
+    setExpanded(!expanded);
+  };
   return (
     <Box className="column">
       <Box className="paragraph font">
@@ -42,11 +78,24 @@ function About() {
         <Box className="verticalLine" />
         <Box className="smallBox">
           <p>
-            Fun Fact: This past year my wife and I bought our first house Click
-            Here for the before and after gallery
+            Fun Fact: This past year my wife and I bought our first house and
+            completely renovated it from the top to bottom
           </p>
+          <ExpandMore
+            expand={expanded}
+            onClick={handleExpandClick}
+            aria-expanded={expanded}
+            aria-label="show more"
+          >
+            <ExpandMoreIcon />
+          </ExpandMore>
         </Box>
       </Box>
+
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <h1>photos here</h1>
+      </Collapse>
+
       <Box className="paragraph font">
         <a className="spaceAbove">What Sets Me Apart</a>
         <p>

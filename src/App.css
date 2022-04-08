@@ -99,6 +99,9 @@ p {
   display: flex;
   width: 25%;
   padding: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .verticalLine {
   height: 160px;
