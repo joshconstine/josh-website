@@ -16,9 +16,7 @@ function App() {
         </Box>
 
         <About />
-        <a id="experience" className="sections">
-          Experience
-        </a>
+
         <Experience />
         <a id="education" className="sections">
           Education

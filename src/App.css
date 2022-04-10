@@ -108,7 +108,34 @@ p {
   width: 1px;
   border: 1px;
   background-color: white;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.horizontalLine {
+  width: 80%;
+  height: 1px;
+  border: 1px;
+  background-color: #282c34;
+  margin-bottom: 30px;
 }
 .spaceAbove {
   padding-top: 60px;
+}
+.sideByside {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  align-items: flex-end;
+}
+.sideBysideR {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  align-items: flex-start;
+}
+.bold {
+  font-weight: bold;
+}
+.alignL {
+  text-align: left;
 }
