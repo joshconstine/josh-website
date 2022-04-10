@@ -20,9 +20,7 @@ function App() {
         <Experience />
 
         <Education />
-        <a id="projects" className="sections">
-          Projects
-        </a>
+       
         <Projects />
         <a id="skills" className="sections">
           Skills

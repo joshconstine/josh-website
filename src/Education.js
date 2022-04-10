@@ -24,15 +24,15 @@ function Experience() {
           </Typography>
           <p className="alignL">
             -On track to recieve an Associates Degree in computer science Spring
-            2023
+            2023.
           </p>
           <p className="alignL">
             -I plan on transfering to San Diego State University in the fall of
-            2023
+            2023.
           </p>
           <p className="alignL">
             I am interested in joining the robotics club when I return to San
-            Diegoz
+            Diego.
           </p>
         </Box>
       </Box>
@@ -53,6 +53,7 @@ function Experience() {
             -17-Week Fullstack JavaScript Web Development Immersive. Focused on
             the fundamentals of software enginnering.
           </p>
+
           <p className="alignL">
             -I learned core frameworks in javascript including React, Redux,
             Express, and more.
