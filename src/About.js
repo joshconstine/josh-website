@@ -111,14 +111,14 @@ function About() {
             Fun Fact: This past year my wife and I bought our first house and
             completely renovated it from the top to bottom
           </p>
-          <ExpandMore
+          {/* <ExpandMore
             expand={expanded}
             onClick={handleExpandClick}
             aria-expanded={expanded}
             aria-label="show more"
           >
             <ExpandMoreIcon />
-          </ExpandMore>
+          </ExpandMore> */}
         </Box>
       </Container>
 

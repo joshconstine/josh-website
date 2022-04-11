@@ -13,7 +13,7 @@ function App() {
       <div className="theme" id="about">
         <Container
           className="App"
-          sx={{ paddingTop: { xs: 18, sm: 18, md: 13 } }}
+          sx={{ paddingTop: { xs: 25, sm: 25, md: 13 } }}
         >
           <Navbar />
 
