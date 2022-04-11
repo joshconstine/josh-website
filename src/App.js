@@ -10,10 +10,10 @@ import Navbar from "./Navbar";
 function App() {
   return (
     <>
-      <div className="theme">
+      <div className="theme" id="about">
         <Container
           className="App"
-          sx={{ paddingTop: { xs: 18, sm: 18, md: 5 } }}
+          sx={{ paddingTop: { xs: 18, sm: 18, md: 13 } }}
         >
           <Navbar />
 

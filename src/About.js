@@ -61,42 +61,51 @@ function About() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          flexWrap: { xs: "nowrap", sm: "nowrap", md: "wrap", lg: "wrap" },
-          flexDiredction: { xs: "column", sm: "column", md: "row" },
+          flexWrap: { xs: "wrap", sm: "nowrap", md: "nowrap", lg: "nowrap" },
+          flexDiredction: { xs: "row", sm: "row", md: "row" },
         }}
       >
         <Box
           className="smallBox"
-          sx={{ width: { xs: "100%", sm: "100%", md: "15%", lg: "15%" } }}
+          sx={{ width: { xs: 300, sm: 300, md: 160, lg: 160 } }}
         >
           <p>
             I have been happily married to my High School sweetheart, Alyssia,
             for just under 4 years
           </p>
         </Box>
-        <Box className="verticalLine" />
+        <Box
+          className="verticalLine"
+          sx={{ height: { xs: 0, sm: 160, md: 160, lg: 160 } }}
+        />
         <Box
           className="smallBox"
-          sx={{ width: { xs: "100%", sm: "100%", md: "15%", lg: "15%" } }}
+          sx={{ width: { xs: 300, sm: 160, md: 160, lg: 160 } }}
         >
           <p>
             We have a dog, Brandy, who is our very energetic Australian Shepherd
           </p>
         </Box>
-        <Box className="verticalLine" />
+        <Box
+          className="verticalLine"
+          sx={{ height: { xs: 0, sm: 160, md: 160, lg: 160 } }}
+        />
         <Box
           className="smallBox"
-          sx={{ width: { xs: "100%", sm: "100%", md: "15%", lg: "15%" } }}
+          sx={{ width: { xs: 300, sm: 160, md: 160, lg: 160 } }}
         >
           <p>
             In my freetime I enjoy cooking, trying new restaurants, gaming, and
             spending time outside
           </p>
         </Box>
-        <Box className="verticalLine" />
+        <Box
+          className="verticalLine"
+          sx={{ height: { xs: 0, sm: 160, md: 160, lg: 160 } }}
+        />
         <Box
           className="smallBox"
-          sx={{ width: { xs: "100%", sm: "100%", md: "15%", lg: "15%" } }}
+          sx={{ width: { xs: 300, sm: 160, md: 160, lg: 160 } }}
         >
           <p>
             Fun Fact: This past year my wife and I bought our first house and

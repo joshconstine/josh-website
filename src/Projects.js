@@ -3,17 +3,17 @@ import { Box, Typography, Button } from "@mui/material";
 
 function Projects() {
   return (
-    <Box className="infoContainer contain " sx={{ height: 900 }}>
+    <Box className="infoContainer contain ">
       <a id="projects" className="sections">
         Projects
       </a>
       <Box className="horizontalLine" />
       <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
         <Box className="sideByside">
-          <p className="bold">2022</p>
+          {/* <p className="bold">2022</p> */}
           <p>Fullstack Academy Capstone Project</p>
-          <Box sx={{ border: 1 }}>
-            <img src="shouldacoulda.jpg" alt="img" className="img profile" />
+          <Box className="pop">
+            <img src="shouldacoulda.jpg" alt="img" className="projectImg" />
           </Box>
         </Box>
         <Box
@@ -42,6 +42,43 @@ function Projects() {
 
           <Button
             href="https://shouldacoulda.herokuapp.com/"
+            className="buttonlink"
+            variant="outlined"
+          >
+            <Typography variant="p" sx={{ color: "blue" }}>
+              check it out
+            </Typography>
+          </Button>
+        </Box>
+      </Box>
+      <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
+        <Box className="sideByside">
+          {/* <p className="bold">2022</p> */}
+          <p>Group Project</p>
+          <Box className="pop">
+            <img src="PlainGray.png" alt="img" className=" projectImg" />
+          </Box>
+        </Box>
+        <Box
+          className="verticalLine"
+          sx={{ backgroundColor: "#282c34", height: 650 }}
+        />
+        <Box className="sideBysideR" sx={{ alignItems: "flex-start" }}>
+          <Typography variant="p" sx={{ fontSize: 20, paddingTop: 1.5 }}>
+            Shirt connection
+          </Typography>
+          <p className="alignL">- Fullstack e-commerce application </p>
+          <p className="alignL">-Utilized secure authentication /API routes</p>
+          <p className="alignL">
+            -worked in a group with 3 other software engineers to collaborate,
+            and create this application
+          </p>
+          <p className="alignL">
+            -utilized git version controll to protect our production version.
+          </p>
+
+          <Button
+            href="https://grace-shopper-snivy.herokuapp.com/"
             className="buttonlink"
             variant="outlined"
           >
