@@ -12,7 +12,7 @@ function App() {
       <Box className="Appbody">
         <h2 id="about">Joshua Constine</h2>
         <Box>
-          <img src="faceShot.jpg" alt="img" className="img" />
+          <img src="faceShot.jpg" alt="img" className="profile" />
         </Box>
 
         <About />
@@ -20,16 +20,10 @@ function App() {
         <Experience />
 
         <Education />
-       
+
         <Projects />
-        <a id="skills" className="sections">
-          Skills
-        </a>
+
         <Skills />
-        <a id="contact" className="sections">
-          Contact
-        </a>
-        <Contact />
       </Box>
     </div>
   );

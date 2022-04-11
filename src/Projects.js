@@ -13,7 +13,7 @@ function Projects() {
           <p className="bold">2022</p>
           <p>Fullstack Academy Capstone Project</p>
           <Box sx={{ border: 1 }}>
-            <img src="shouldacoulda.jpg" alt="img" className="img" />
+            <img src="shouldacoulda.jpg" alt="img" className="img profile" />
           </Box>
         </Box>
         <Box

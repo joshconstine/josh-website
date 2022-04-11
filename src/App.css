@@ -36,6 +36,13 @@
 }
 img {
   align-self: center;
+}
+.skills {
+  align-self: center;
+  min-width: 100%;
+}
+.profile {
+  align-self: center;
   max-width: 75%;
 }
 a:link,
@@ -143,23 +150,20 @@ p {
   background-color: black;
   color: red;
 }
-#rel2 {
-  z-index: 2;
-  height: 100px;
-  position: relative;
-  top: 15px;
-  left: 20px;
-  border: 1px dashed #696;
-  background-color: #cfc;
-  margin: 0px 50px 0px 50px;
+.rel2 {
+  padding: 20px;
+  top: 20%;
+  width: 20%;
+  font-weight: 600;
+  color: lightgreen;
+  font-size: 40px;
 }
 #abs2 {
-  z-index: 1;
-  position: absolute;
-  width: 150px;
-  height: 350px;
-  top: 10px;
-  right: 10px;
-  border: 1px dashed #900;
-  background-color: #fdd;
+  background-image: url("background2.jpg");
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 500px;
 }

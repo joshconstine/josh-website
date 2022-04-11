@@ -113,12 +113,6 @@ const Navbar = () => {
         >
           Skills
         </h6>
-        <h6
-          onClick={(e) => scrollFunction1(e, "contact", 5)}
-          className={`links ${classNames[5]}`}
-        >
-          Contact
-        </h6>
       </Box>
     </AppBar>
   );

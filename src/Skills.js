@@ -1,31 +1,31 @@
 import "./App.css";
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 
 function Skills() {
+  const skills = [
+    "React",
+    "Redux",
+    "postgreSQL",
+    "Express",
+    "Git",
+    "Firebase",
+    "Deployment",
+    "communication",
+  ];
   return (
     <>
-      {/* <div id="rel2">
-        <b>DIV #3</b>
-        <br />
-        position: relative;
-        <br />
-        z-index: 2;
-      </div> */}
-      <></>
-      <div id="abs2">
-        <b>DIV #4</b>
-        <br />
-        position: absolute;
-        <br />
-        z-index: 1;
-      </div>
-      <Box sx={{ border: 1 }}>
-        <img src="background.jpg" alt="img" />
+      <a id="skills" className="sections">
+        Skills
+      </a>
+      <Box id="abs2">
+        {skills.map((skill, i) => {
+          return (
+            <Box key={i} className="rel2">
+              <Typography variant="p">{skill}</Typography>
+            </Box>
+          );
+        })}
       </Box>
-      <h3>Shoulda Coulda</h3>
-      <h5>Group Project</h5>
-      <p></p>
-      <a href="https://shouldacoulda.herokuapp.com/">check it out</a>
     </>
   );
 }
