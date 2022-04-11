@@ -1,31 +1,48 @@
 import "./App.css";
-import { Box } from "@mui/material";
+import { Box, Container } from "@mui/material";
 import Projects from "./Projects";
 import Experience from "./Experience";
 import Education from "./Education";
 import About from "./About";
 import Skills from "./Skills";
 import Contact from "./Contact";
+import Navbar from "./Navbar";
 function App() {
   return (
-    <div className="App">
-      <Box className="Appbody">
-        <h2 id="about">Joshua Constine</h2>
-        <Box>
-          <img src="faceShot.jpg" alt="img" className="profile" />
-        </Box>
+    <>
+      <div className="theme">
+        <Container
+          className="App"
+          sx={{ paddingTop: { xs: 18, sm: 18, md: 5 } }}
+        >
+          <Navbar />
 
-        <About />
+          <Box className="Appbody">
+            <Box>
+              <img src="faceShot.jpg" alt="img" className="profile" />
+            </Box>
 
-        <Experience />
+            <About />
+          </Box>
+        </Container>
+      </div>
+      <div>
+        <Container>
+          <Box className="Appbody">
+            <Experience />
 
-        <Education />
+            <Education />
 
-        <Projects />
-
-        <Skills />
-      </Box>
-    </div>
+            <Projects />
+          </Box>
+        </Container>
+      </div>
+      <div className="theme">
+        <Container className=" App">
+          <Skills />
+        </Container>
+      </div>
+    </>
   );
 }
 

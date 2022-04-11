@@ -20,6 +20,7 @@ import {
   CardContent,
   CardActions,
   SvgIcon,
+  Container,
 } from "@mui/material";
 import styled from "@emotion/styled";
 import Collapse from "@mui/material/Collapse";
@@ -55,31 +56,48 @@ function About() {
         </p>
       </Box>
       <a>Get to Know Me</a>
-      <Box
-        className="smallBoxContainer"
-        sx={{ flexDiredction: { xs: "column", sm: "column", md: "row" } }}
+      <Container
+        sx={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexWrap: { xs: "nowrap", sm: "nowrap", md: "wrap", lg: "wrap" },
+          flexDiredction: { xs: "column", sm: "column", md: "row" },
+        }}
       >
-        <Box className="smallBox">
+        <Box
+          className="smallBox"
+          sx={{ width: { xs: "100%", sm: "100%", md: "15%", lg: "15%" } }}
+        >
           <p>
             I have been happily married to my High School sweetheart, Alyssia,
             for just under 4 years
           </p>
         </Box>
         <Box className="verticalLine" />
-        <Box className="smallBox">
+        <Box
+          className="smallBox"
+          sx={{ width: { xs: "100%", sm: "100%", md: "15%", lg: "15%" } }}
+        >
           <p>
             We have a dog, Brandy, who is our very energetic Australian Shepherd
           </p>
         </Box>
         <Box className="verticalLine" />
-        <Box className="smallBox">
+        <Box
+          className="smallBox"
+          sx={{ width: { xs: "100%", sm: "100%", md: "15%", lg: "15%" } }}
+        >
           <p>
             In my freetime I enjoy cooking, trying new restaurants, gaming, and
             spending time outside
           </p>
         </Box>
         <Box className="verticalLine" />
-        <Box className="smallBox">
+        <Box
+          className="smallBox"
+          sx={{ width: { xs: "100%", sm: "100%", md: "15%", lg: "15%" } }}
+        >
           <p>
             Fun Fact: This past year my wife and I bought our first house and
             completely renovated it from the top to bottom
@@ -93,7 +111,7 @@ function About() {
             <ExpandMoreIcon />
           </ExpandMore>
         </Box>
-      </Box>
+      </Container>
 
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <h1>photos here</h1>
