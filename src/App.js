@@ -37,11 +37,11 @@ function App() {
           </Box>
         </Container>
       </div>
-      <div className="theme">
+      {/* <div className="theme">
         <Container className=" App">
           <Skills />
         </Container>
-      </div>
+      </div> */}
     </>
   );
 }

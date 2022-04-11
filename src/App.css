@@ -54,6 +54,12 @@ img {
   align-self: center;
   width: 250px;
 }
+@media only screen and (max-width: 600px) {
+  .projectImg {
+    align-self: center;
+    width: 130px;
+  }
+}
 a:link,
 a:visited {
   color: white;
