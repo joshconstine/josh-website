@@ -55,7 +55,10 @@ function About() {
         </p>
       </Box>
       <a>Get to Know Me</a>
-      <Box className="smallBoxContainer">
+      <Box
+        className="smallBoxContainer"
+        sx={{ flexDiredction: { xs: "column", sm: "column", md: "row" } }}
+      >
         <Box className="smallBox">
           <p>
             I have been happily married to my High School sweetheart, Alyssia,
