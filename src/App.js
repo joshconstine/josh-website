@@ -38,9 +38,7 @@ function App() {
         </Container>
       </div>
       <div className="theme">
-        <Container className=" App">
-          <Skills />
-        </Container>
+        <Skills />
       </div>
     </>
   );

@@ -14,9 +14,11 @@ function Skills() {
   ];
   return (
     <>
-      <a id="skills" className="sections">
-        Skills
-      </a>
+      <Box sx={{ padding: 5 }}>
+        <Typography variant="a" sx={{ color: "white", fontSize: 30 }}>
+          Skills
+        </Typography>
+      </Box>
       <Box id="abs2">
         {skills.map((skill, i) => {
           return (
