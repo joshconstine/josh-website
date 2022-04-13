@@ -102,6 +102,7 @@ p {
 }
 .paragraph {
   max-width: 500px;
+
   align-self: center;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -173,11 +174,10 @@ p {
   font-size: 40px;
 }
 #abs2 {
-  background-image: url("background2.jpg");
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  background-image: url("background.jpg");
+}
+.white {
+  color: white;
   height: 500;
 }
 .pop {

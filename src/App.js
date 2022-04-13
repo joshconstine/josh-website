@@ -37,11 +37,9 @@ function App() {
           </Box>
         </Container>
       </div>
-      {/* <div className="theme">
-        <Container className=" App">
-          <Skills />
-        </Container>
-      </div> */}
+      <div className="theme">
+        <Skills />
+      </div>
     </>
   );
 }
