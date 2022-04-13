@@ -5,12 +5,11 @@ function Skills() {
   const skills = [
     "React",
     "Redux",
-    "postgreSQL",
+    "PostgreSQL",
     "Express",
     "Git",
     "Firebase",
     "Deployment",
-    "communication",
     "Firebase",
   ];
   return (

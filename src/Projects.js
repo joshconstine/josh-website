@@ -65,7 +65,7 @@ function Projects() {
         />
         <Box className="sideBysideR" sx={{ alignItems: "flex-start" }}>
           <Typography variant="p" sx={{ fontSize: 20, paddingTop: 1.5 }}>
-            Shirt connection
+            Plain Grey T's
           </Typography>
           <p className="alignL">- Fullstack e-commerce application </p>
           <p className="alignL">-Utilized secure authentication /API routes</p>
