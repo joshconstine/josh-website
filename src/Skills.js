@@ -20,13 +20,13 @@ function Skills() {
         </Typography>
       </Box>
       <Box id="abs2">
-        {skills.map((skill, i) => {
+        {/* {skills.map((skill, i) => {
           return (
             <Box key={i} className="rel2">
               <Typography variant="p">{skill}</Typography>
             </Box>
           );
-        })}
+        })} */}
       </Box>
     </>
   );
