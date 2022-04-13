@@ -50,6 +50,16 @@ img {
   align-self: center;
   max-width: 75%;
 }
+.projectImg {
+  align-self: center;
+  width: 250px;
+}
+@media only screen and (max-width: 600px) {
+  .projectImg {
+    align-self: center;
+    width: 130px;
+  }
+}
 a:link,
 a:visited {
   color: white;
@@ -100,10 +110,11 @@ p {
 .column {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .smallBoxContainer {
   display: flex;
-  height: 200px;
   align-items: center;
   width: 80%;
   align-self: center;
@@ -173,4 +184,9 @@ p {
 }
 .white {
   color: white;
+  height: 500;
+}
+.pop {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }

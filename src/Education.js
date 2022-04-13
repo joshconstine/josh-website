@@ -1,6 +1,5 @@
 import "./App.css";
 import { Box, Typography } from "@mui/material";
-import { display, fontWeight } from "@mui/system";
 
 function Experience() {
   return (
@@ -39,7 +38,7 @@ function Experience() {
       <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
         <Box className="sideByside">
           <p className="bold">2022</p>
-          <p>Web DevelopmentBootCamp</p>
+          <p>Web BootCamp</p>
         </Box>
         <Box
           className="verticalLine"
