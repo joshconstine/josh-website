@@ -50,12 +50,12 @@ function Skills() {
               sx={{
                 top: "20%",
                 fontWeight: 400,
-                color: "lightgreen",
+                color: "white",
                 fontSize: { xs: 25, sm: 25, md: 25, lg: 30 },
                 backgroundColor: "black",
                 padding: { xs: 0.5, sm: 0.5, md: 0.5, lg: 3 },
                 margin: { xs: 1, sm: 1, md: 1, lg: 5 },
-                width: { xs: "30%", sm: "30%", md: "30%", lg: "15%" },
+                width: { xs: "35%", sm: "30%", md: "30%", lg: "15%" },
               }}
             >
               <Typography

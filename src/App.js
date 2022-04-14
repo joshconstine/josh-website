@@ -40,6 +40,9 @@ function App() {
       <div className="theme">
         <Skills />
       </div>
+      <div className="theme">
+        <Contact />
+      </div>
     </>
   );
 }
