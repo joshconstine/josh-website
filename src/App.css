@@ -128,7 +128,6 @@ p {
 .verticalLine {
   height: 160px;
   width: 1px;
-  border: 1px;
   background-color: white;
   margin-left: 45px;
   margin-right: 45px;
@@ -187,6 +186,9 @@ p {
 .link:hover {
   color: #d5a9e9;
 }
+.link {
+  font-size: 25px;
+}
 /* Style inputs with type="text", select elements and textareas */
 input[type="text"],
 select,
@@ -237,4 +239,10 @@ input[type="submit"]:hover {
 .submitbtn {
   padding: 4px;
   border-radius: 4px;
+}
+.formg {
+  width: 400px;
+}
+.verdana {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
