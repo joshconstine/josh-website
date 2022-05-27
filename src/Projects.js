@@ -11,6 +11,49 @@ function Projects() {
       <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
         <Box className="sideByside">
           {/* <p className="bold">2022</p> */}
+          <p>Personal Project</p>
+          <Box className="pop">
+            <img src="apptracker.jpg" alt="img" className="projectImg" />
+          </Box>
+        </Box>
+        <Box
+          className="verticalLine"
+          sx={{ backgroundColor: "#282c34", height: 650 }}
+        />
+        <Box className="sideBysideR" sx={{ alignItems: "flex-start" }}>
+          <Typography variant="p" sx={{ fontSize: 20, paddingTop: 1.5 }}>
+            Application Tracker
+          </Typography>
+          <p className="alignL">
+            - Web application aimed to help orginize a professional job search.
+          </p>
+          <p className="alignL">
+            -Allows a user to be able to save relevant information regarding a
+            job application.
+          </p>
+          <p className="alignL">
+            -I am currently adding to this project. Upcomming features include a
+            callendar, a template system in order to quickly generate documents,
+            and a event handler.
+          </p>
+          <p className="alignL">
+            -utilized git version controll to protect our production version.
+          </p>
+
+          <Button
+            href="https://applicatintrackerco.netlify.app/"
+            className="buttonlink"
+            variant="outlined"
+          >
+            <Typography variant="p" sx={{ color: "blue" }}>
+              check it out
+            </Typography>
+          </Button>
+        </Box>
+      </Box>
+      <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
+        <Box className="sideByside">
+          {/* <p className="bold">2022</p> */}
           <p>Fullstack Academy Capstone Project</p>
           <Box className="pop">
             <img src="shouldacoulda.jpg" alt="img" className="projectImg" />
