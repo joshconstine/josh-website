@@ -8,7 +8,7 @@ function Skills() {
     "PostgreSQL",
     "Express",
     "Git",
-    "Firebase",
+    "Data Structures",
     "Deployment",
     "Firebase",
   ];
