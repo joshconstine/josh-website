@@ -52,8 +52,8 @@ function Experience() {
         }}
       >
         <Box className="sideByside">
-          <p className="bold">2020-2021</p>
-          <p>F-18 Airframes Mechanic |||</p>
+          <p className="bold">2022-current</p>
+          <p>Software Engineer</p>
         </Box>
         <Box
           className="verticalLine"
@@ -61,17 +61,15 @@ function Experience() {
         />
         <Box className="sideBysideR" sx={{ alignItems: "flex-start" }}>
           <Typography variant="p" sx={{ fontSize: 20, paddingTop: 1.5 }}>
-            AVAMAC LLC
+            Sorenson Communications
           </Typography>
           <p className="alignL">
-            -Served as an Airframes Quality Assurance Representative responsible
-            for preventative maintenance, flight preparedness, and safety for
-            over 40 aircraft at a total value of $1.2 billion dollars
+            -Work as a front end developer. Created a customer facing web
+            application using React.js
           </p>
           <p className="alignL">
-            -Enforced the compliance of technical publications and standard
-            operating procedures ensuring 100% availability of aircraft adhering
-            to a rigid schedule of operations
+            -Work with a team of developers to create a web application that
+            allows customers to manage their video conferencing services.
           </p>
         </Box>
       </Box>
