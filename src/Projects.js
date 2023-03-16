@@ -22,7 +22,7 @@ function Projects() {
         />
         <Box className="sideBysideR" sx={{ alignItems: "flex-start" }}>
           <Typography variant="p" sx={{ fontSize: 20, paddingTop: 1.5 }}>
-            Application Tracker
+            Foodley
           </Typography>
           <p className="alignL">
             - Serverless web application built with Nextjs, PlanetScaleDB
