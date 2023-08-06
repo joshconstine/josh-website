@@ -9,6 +9,35 @@ function Experience() {
         Experience
       </a>
       <Box className="horizontalLine" />
+      <Box
+        sx={{
+          display: "flex",
+          width: "100%",
+          justifyContent: "center",
+        }}
+      >
+        <Box className="sideByside">
+          <p className="bold">2022-current</p>
+          <p>Software Engineer</p>
+        </Box>
+        <Box
+          className="verticalLine"
+          sx={{ backgroundColor: "#282c34", height: 300 }}
+        />
+        <Box className="sideBysideR" sx={{ alignItems: "flex-start" }}>
+          <Typography variant="p" sx={{ fontSize: 20, paddingTop: 1.5 }}>
+            Sorenson Communications
+          </Typography>
+          <p className="alignL">
+            -Work as a front end developer. Created a customer facing web
+            application using React.js
+          </p>
+          <p className="alignL">
+            -Work with a team of developers to create a web application that
+            allows customers to manage their video conferencing services.
+          </p>
+        </Box>
+      </Box>
       <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
         <Box className="sideByside">
           <p className="bold">2015-2020</p>
@@ -40,36 +69,6 @@ function Experience() {
           <p className="alignL">
             -Led day-to-day operations as well as administrative duties such as
             implementing policies, discipline, and mentorship
-          </p>
-        </Box>
-      </Box>
-      <Box
-        sx={{
-          display: "flex",
-          width: "100%",
-          justifyContent: "center",
-          marginBottom: 10,
-        }}
-      >
-        <Box className="sideByside">
-          <p className="bold">2022-current</p>
-          <p>Software Engineer</p>
-        </Box>
-        <Box
-          className="verticalLine"
-          sx={{ backgroundColor: "#282c34", height: 300 }}
-        />
-        <Box className="sideBysideR" sx={{ alignItems: "flex-start" }}>
-          <Typography variant="p" sx={{ fontSize: 20, paddingTop: 1.5 }}>
-            Sorenson Communications
-          </Typography>
-          <p className="alignL">
-            -Work as a front end developer. Created a customer facing web
-            application using React.js
-          </p>
-          <p className="alignL">
-            -Work with a team of developers to create a web application that
-            allows customers to manage their video conferencing services.
           </p>
         </Box>
       </Box>

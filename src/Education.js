@@ -7,11 +7,33 @@ function Experience() {
       <a id="education" className="sections">
         Education
       </a>
-      <Box className="horizontalLine" />
+      <Box className="horizontalLine" />{" "}
       <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
         <Box className="sideByside">
-          <p className="bold">2015-2020</p>
-          <p>Computer Science</p>
+          <p className="bold">2023</p>
+          <p>Pursuing Bachelors Degree</p>
+        </Box>
+        <Box
+          className="verticalLine"
+          sx={{ backgroundColor: "#282c34", height: 500 }}
+        />
+        <Box className="sideBysideR" sx={{ alignItems: "flex-start" }}>
+          <Typography variant="p" sx={{ fontSize: 20, paddingTop: 1.5 }}>
+            San Diego State University
+          </Typography>
+          <p className="alignL">
+            -Woking towards a Bachelors Degree in Computer Science.
+          </p>
+          <p className="alignL">
+            - coursework includes: Data Structures, Algorithms, software
+            systems, and more.
+          </p>
+        </Box>
+      </Box>
+      <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
+        <Box className="sideByside">
+          <p className="bold">2020-2023</p>
+          <p>Associates Degree Computer Science</p>
         </Box>
         <Box
           className="verticalLine"
@@ -22,16 +44,12 @@ function Experience() {
             San Diego Community College District
           </Typography>
           <p className="alignL">
-            -On track to recieve an Associates Degree in computer science Spring
-            2023.
+            -Leaned the fundamentals of computer science including data
+            structures, algorithms, and object oriented programming.
           </p>
           <p className="alignL">
-            -I plan on transfering to San Diego State University in the fall of
-            2023.
-          </p>
-          <p className="alignL">
-            I am interested in joining the robotics club when I return to San
-            Diego.
+            - Colaborated with other students to complete projects and
+            assignments.
           </p>
         </Box>
       </Box>
