@@ -10,8 +10,6 @@ function Projects() {
       <Box className="horizontalLine" />
       <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
         <Box className="sideByside">
-          {/* <p className="bold">2022</p> */}
-          <p>Personal Project</p>
           <Box className="pop">
             <img src="foodley.png" alt="img" className="projectImg" />
           </Box>
@@ -49,6 +47,51 @@ function Projects() {
             <Button
               secondary
               href="https://github.com/joshconstine/t3foodly"
+              target="_blank"
+              className="buttonlink"
+              variant="outlined"
+            >
+              <Typography variant="p" sx={{ color: "blue" }}>
+                code
+              </Typography>
+            </Button>
+          </div>
+        </Box>
+      </Box>{" "}
+      <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
+        <Box className="sideByside">
+          <Box className="pop">
+            <img src="algo.png" alt="img" className="projectImg" />
+          </Box>
+        </Box>
+        <Box
+          className="verticalLine"
+          sx={{ backgroundColor: "#282c34", height: 650 }}
+        />
+        <Box className="sideBysideR" sx={{ alignItems: "flex-start" }}>
+          <Typography variant="p" sx={{ fontSize: 20, paddingTop: 1.5 }}>
+            algo-attack
+          </Typography>
+          <p className="alignL">
+            - Test your algorithm skills with this fun game built with
+            React,Nextjs
+          </p>
+          <p className="alignL">-This application was built with typescript</p>
+
+          <div>
+            <Button
+              href="https://algo-attack.vercel.app/"
+              target="_blank"
+              className="buttonlink"
+              variant="outlined"
+            >
+              <Typography variant="p" sx={{ color: "blue" }}>
+                check it out
+              </Typography>
+            </Button>{" "}
+            <Button
+              secondary
+              href="https://github.com/joshconstine/algo-attack"
               target="_blank"
               className="buttonlink"
               variant="outlined"
