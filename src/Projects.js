@@ -61,6 +61,54 @@ function Projects() {
       <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
         <Box className="sideByside">
           <Box className="pop">
+            <img src="Listify.png" alt="img" className="projectImg" />
+          </Box>
+        </Box>
+        <Box
+          className="verticalLine"
+          sx={{ backgroundColor: "#282c34", height: 650 }}
+        />
+        <Box className="sideBysideR" sx={{ alignItems: "flex-start" }}>
+          <Typography variant="p" sx={{ fontSize: 20, paddingTop: 1.5 }}>
+            Listify
+          </Typography>
+          <p className="alignL">
+            - The <strong>
+              O(Log(n))
+              </strong>
+                solution to grocery shopping
+
+          </p>
+          <p className="alignL">-This application was built with Go</p>
+
+          <div>
+            {/* <Button
+              href="https://algo-attack.vercel.app/"
+              target="_blank"
+              className="buttonlink"
+              variant="outlined"
+            >
+              <Typography variant="p" sx={{ color: "blue" }}>
+                check it out
+              </Typography>
+            </Button>{" "} */}
+            <Button
+              secondary
+              href="https://github.com/joshconstine/firstgoproj"
+              target="_blank"
+              className="buttonlink"
+              variant="outlined"
+            >
+              <Typography variant="p" sx={{ color: "blue" }}>
+                code
+              </Typography>
+            </Button>
+          </div>
+        </Box>
+      </Box>
+      <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
+        <Box className="sideByside">
+          <Box className="pop">
             <img src="algo.png" alt="img" className="projectImg" />
           </Box>
         </Box>
