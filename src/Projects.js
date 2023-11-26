@@ -23,7 +23,7 @@ function Projects() {
             Foodley
           </Typography>
           <p className="alignL">
-            - Serverless web application built with Nextjs, PlanetScaleDB
+            -Serverless web application built with Nextjs, PlanetScaleDB
           </p>
           <p className="alignL">
             -Search and review Local Restaurants, Check out other users favorite
@@ -73,11 +73,8 @@ function Projects() {
             Listify
           </Typography>
           <p className="alignL">
-            - The <strong>
-              O(Log(n))
-              </strong>
-                solution to grocery shopping
-
+            -The <strong>O(Log(n))</strong>
+            solution to grocery shopping
           </p>
           <p className="alignL">-This application was built with Go</p>
 
@@ -121,7 +118,7 @@ function Projects() {
             algo-attack
           </Typography>
           <p className="alignL">
-            - Test your algorithm skills with this fun game built with
+            -Test your algorithm skills with this fun game built with
             React,Nextjs
           </p>
           <p className="alignL">-This application was built with typescript</p>

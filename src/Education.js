@@ -11,7 +11,7 @@ function Experience() {
       <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
         <Box className="sideByside">
           <p className="bold">2023</p>
-          <p>Pursuing Bachelors Degree</p>
+          <p>Pursuing Bachelor's Degree</p>
         </Box>
         <Box
           className="verticalLine"
@@ -22,10 +22,10 @@ function Experience() {
             San Diego State University
           </Typography>
           <p className="alignL">
-            -Woking towards a Bachelors Degree in Computer Science.
+            -Working towards a Bachelor's Degree in Computer Science.
           </p>
           <p className="alignL">
-            - coursework includes: Data Structures, Algorithms, software
+            -Course work includes: Data Structures, Algorithms, software
             systems, and more.
           </p>
         </Box>
@@ -33,7 +33,7 @@ function Experience() {
       <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
         <Box className="sideByside">
           <p className="bold">2020-2023</p>
-          <p>Associates Degree Computer Science</p>
+          <p>Associate's Degree Computer Science</p>
         </Box>
         <Box
           className="verticalLine"
@@ -44,11 +44,11 @@ function Experience() {
             San Diego Community College District
           </Typography>
           <p className="alignL">
-            -Leaned the fundamentals of computer science including data
+            -Learned the fundamentals of computer science including data
             structures, algorithms, and object oriented programming.
           </p>
           <p className="alignL">
-            - Colaborated with other students to complete projects and
+            -Collaborated with other students to complete projects and
             assignments.
           </p>
         </Box>
@@ -56,7 +56,7 @@ function Experience() {
       <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
         <Box className="sideByside">
           <p className="bold">2022</p>
-          <p>Web BootCamp</p>
+          <p>Web Bootcamp</p>
         </Box>
         <Box
           className="verticalLine"
