@@ -4,9 +4,9 @@ import { Box, Typography, Button } from "@mui/material";
 function Projects() {
   return (
     <Box className="infoContainer contain ">
-      <a id="projects" className="sections">
+      <span id="projects" className="sections heading">
         Project
-      </a>
+      </span>
       <Box className="horizontalLine" />
       <div className="video-responsive">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/2VZx3buiH6s?si=Hl9ETEcdmm-lxuni" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -96,7 +96,8 @@ a:visited {
 .selected {
   color: #d5a9e9;
 }
-a {
+a,
+.heading {
   font-size: 30px;
 }
 a.inlineLink:link,

@@ -1,24 +1,14 @@
 import "./App.css";
-import React, { useState } from "react";
-import {
-  Typography,
-  Box,
-  Link,
-  IconButton,
-  Collapse,
-  Button,
-} from "@mui/material";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-
-import styled from "@emotion/styled";
+import React from "react";
+import { Typography, Box, Link, Button } from "@mui/material";
 
 function Contact() {
   return (
     <Box className="column" sx={{ paddingBottom: 15 }}>
       <Box className="paragraph font">
-        <a className="sections" id="contact">
+        <span className="sections heading" id="contact">
           Contact Me
-        </a>
+        </span>
       </Box>
 
       <Box
@@ -137,7 +127,6 @@ function Contact() {
             flexDirection: "column",
             borderRadius: 5,
             padding: 5,
-            display: "flex",
             alignItems: "center",
             marginRight: { xs: 0, sm: 5, md: 5, lg: 0 },
             marginLeft: { xs: 0, sm: 5, md: 5, lg: 5 },

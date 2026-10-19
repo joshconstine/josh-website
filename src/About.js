@@ -1,30 +1,7 @@
 import "./App.css";
-import React, { useState } from "react";
-import {
-  Typography,
-  Box,
-  Button,
-  Table,
-  TableRow,
-  TableHead,
-  TableCell,
-  TableContainer,
-  TableBody,
-  FormControl,
-  InputLabel,
-  Input,
-  FormHelperText,
-  Card,
-  CardHeader,
-  IconButton,
-  CardContent,
-  CardActions,
-  SvgIcon,
-  Container,
-} from "@mui/material";
-import styled from "@emotion/styled";
-import Collapse from "@mui/material/Collapse";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import React from "react";
+import { Box, Container } from "@mui/material";
+
 const MARRIED_ON = new Date(2018, 8, 20);
 
 function yearsSince(date) {
@@ -38,23 +15,10 @@ function yearsSince(date) {
 }
 
 function About() {
-  const [expanded, setExpanded] = React.useState(false);
-  const [expandedFourm, setExpandedfourm] = React.useState(false);
-
-  const ExpandMore = styled((props) => {
-    const { expand, ...other } = props;
-    return <IconButton {...other} />;
-  })(({ theme, expand }) => ({
-    transform: !expand ? "rotate(0deg)" : "rotate(180deg)",
-    marginLeft: "auto",
-  }));
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
-  };
   return (
     <Box className="column">
       <Box className="paragraph font">
-        <a className="sections">Hi there! I'm Josh</a>
+        <span className="sections heading">Hi there! I'm Josh</span>
 
         <p>
           I am a Software Engineer and an MBA student at the UC San Diego Rady
@@ -67,7 +31,7 @@ function About() {
           new things, and learning how to succeed at them.
         </p>
       </Box>
-      <a>Get to Know Me</a>
+      <span className="heading">Get to Know Me</span>
       <Container
         sx={{
           display: "flex",
@@ -125,10 +89,6 @@ function About() {
           </p>
         </Box>
       </Container>
-
-      <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <h1>photos here</h1>
-      </Collapse>
     </Box>
   );
 }

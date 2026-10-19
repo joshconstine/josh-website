@@ -1,13 +1,5 @@
-import React, { useEffect, useState } from "react";
-import {
-  Container,
-  AppBar,
-  Toolbar,
-  Typography,
-  Box,
-  Tooltip,
-  IconButton,
-} from "@mui/material";
+import React, { useState } from "react";
+import { AppBar, Box } from "@mui/material";
 import "./App.css";
 
 const Navbar = () => {
@@ -34,15 +26,7 @@ const Navbar = () => {
     handleSelected(i);
   }
   function handleSelected(i) {
-    let data = [];
-    classNames.map((elem, index) => {
-      if (index === i) {
-        data.push("selected");
-      } else {
-        data.push("");
-      }
-    });
-    setClassNames(data);
+    setClassNames(classNames.map((_, index) => (index === i ? "selected" : "")));
   }
 
   return (

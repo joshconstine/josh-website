@@ -1,13 +1,12 @@
 import "./App.css";
 import { Box, Typography } from "@mui/material";
-import { display, fontWeight } from "@mui/system";
 
 function Experience() {
   return (
     <Box className="infoContainer contain">
-      <a id="experience" className="sections">
+      <span id="experience" className="sections heading">
         Experience
-      </a>
+      </span>
       <Box className="horizontalLine" />
       <Box
         sx={{

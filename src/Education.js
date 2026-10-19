@@ -4,9 +4,9 @@ import { Box, Typography } from "@mui/material";
 function Experience() {
   return (
     <Box className="infoContainer contain">
-      <a id="education" className="sections">
+      <span id="education" className="sections heading">
         Education
-      </a>
+      </span>
       <Box className="horizontalLine" />{" "}
       <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
         <Box className="sideByside">
