@@ -19,7 +19,7 @@ function App() {
 
           <Box className="Appbody">
             <Box>
-              <img src="faceShot.jpg" alt="img" className="profile" />
+              <img src="headshot.jpg" alt="Josh Constine" className="profile" />
             </Box>
 
             <About />

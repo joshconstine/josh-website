@@ -32,6 +32,22 @@ function Projects() {
             -Booking engine for rental properties and boats
           </p>
           <p className="alignL">
+            -Started as a wireless network project at San Diego State
+            University. Check out the video above to see where it began
+          </p>
+          <p className="alignL">
+            -Will soon replace the booking system at{" "}
+            <a
+              href="https://theeverett.net/"
+              className="inlineLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              The Everett Resort
+            </a>
+            , a historic resort on Catfish Lake in Eagle River, Wisconsin
+          </p>
+          <p className="alignL">
             -Allows hosts to list their properties and boats for rent
           </p>
           <p className="alignL">
@@ -91,96 +107,6 @@ function Projects() {
             <Button
               secondary
               href="https://github.com/joshconstine/t3foodly"
-              target="_blank"
-              className="buttonlink"
-              variant="outlined"
-            >
-              <Typography variant="p" sx={{ color: "blue" }}>
-                code
-              </Typography>
-            </Button>
-          </div>
-        </Box>
-      </Box>{" "}
-      <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
-        <Box className="sideByside">
-          <Box className="pop">
-            <img src="Listify.png" alt="img" className="projectImg" />
-          </Box>
-        </Box>
-        <Box
-          className="verticalLine"
-          sx={{ backgroundColor: "#282c34", height: 650 }}
-        />
-        <Box className="sideBysideR" sx={{ alignItems: "flex-start" }}>
-          <Typography variant="p" sx={{ fontSize: 20, paddingTop: 1.5 }}>
-            Listify
-          </Typography>
-          <p className="alignL">
-            -The <strong>O(Log(n))</strong>
-            solution to grocery shopping
-          </p>
-          <p className="alignL">-This application was built with Go</p>
-
-          <div>
-            {/* <Button
-              href="https://algo-attack.vercel.app/"
-              target="_blank"
-              className="buttonlink"
-              variant="outlined"
-            >
-              <Typography variant="p" sx={{ color: "blue" }}>
-                check it out
-              </Typography>
-            </Button>{" "} */}
-            <Button
-              secondary
-              href="https://github.com/joshconstine/firstgoproj"
-              target="_blank"
-              className="buttonlink"
-              variant="outlined"
-            >
-              <Typography variant="p" sx={{ color: "blue" }}>
-                code
-              </Typography>
-            </Button>
-          </div>
-        </Box>
-      </Box>
-      <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
-        <Box className="sideByside">
-          <Box className="pop">
-            <img src="algo.png" alt="img" className="projectImg" />
-          </Box>
-        </Box>
-        <Box
-          className="verticalLine"
-          sx={{ backgroundColor: "#282c34", height: 650 }}
-        />
-        <Box className="sideBysideR" sx={{ alignItems: "flex-start" }}>
-          <Typography variant="p" sx={{ fontSize: 20, paddingTop: 1.5 }}>
-            algo-attack
-          </Typography>
-          <p className="alignL">
-            -Test your algorithm skills with this fun game built with
-            React,Nextjs
-          </p>
-          <p className="alignL">-This application was built with typescript</p>
-
-          <div>
-            <Button
-              href="https://algo-attack.vercel.app/"
-              target="_blank"
-              className="buttonlink"
-              variant="outlined"
-            >
-              <Typography variant="p" sx={{ color: "blue" }}>
-                check it out
-              </Typography>
-            </Button>{" "}
-            <Button
-              secondary
-              href="https://github.com/joshconstine/algo-attack"
               target="_blank"
               className="buttonlink"
               variant="outlined"

@@ -10,6 +10,24 @@ function Experience() {
       <Box className="horizontalLine" />{" "}
       <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
         <Box className="sideByside">
+          <p className="bold">2026-current</p>
+          <p>Master of Business Administration</p>
+        </Box>
+        <Box
+          className="verticalLine"
+          sx={{ backgroundColor: "#282c34", height: 300 }}
+        />
+        <Box className="sideBysideR" sx={{ alignItems: "flex-start" }}>
+          <Typography variant="p" sx={{ fontSize: 20, paddingTop: 1.5 }}>
+            UC San Diego Rady School of Management
+          </Typography>
+          <p className="alignL">
+            -Currently pursuing an MBA at the Rady School of Management.
+          </p>
+        </Box>
+      </Box>
+      <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
+        <Box className="sideByside">
           <p className="bold">2023</p>
           <p>Pursuing Bachelor's Degree</p>
         </Box>

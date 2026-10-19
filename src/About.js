@@ -25,6 +25,18 @@ import {
 import styled from "@emotion/styled";
 import Collapse from "@mui/material/Collapse";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+const MARRIED_ON = new Date(2018, 8, 20);
+
+function yearsSince(date) {
+  const now = new Date();
+  let years = now.getFullYear() - date.getFullYear();
+  const hadAnniversary =
+    now.getMonth() > date.getMonth() ||
+    (now.getMonth() === date.getMonth() && now.getDate() >= date.getDate());
+  if (!hadAnniversary) years--;
+  return years;
+}
+
 function About() {
   const [expanded, setExpanded] = React.useState(false);
   const [expandedFourm, setExpandedfourm] = React.useState(false);
@@ -45,12 +57,14 @@ function About() {
         <a className="sections">Hi there! I'm Josh</a>
 
         <p>
-          I am a Software Engineering professional with expertise in developing
-          websites that are functional and user-friendly. I have always had
-          dreams to live an exceptional life full of trying new things outside
-          of my comfort zone and mastering them. I thrive when surrounded by
-          like-minded individuals who are open to growing, trying new things,
-          and learning how to succeed at them.
+          I am a Software Engineer and an MBA student at the UC San Diego Rady
+          School of Management. I build websites and applications that are
+          functional and user-friendly, including My Good Rental, a booking
+          platform for vacation rentals, boats, and event venues. I have always
+          had dreams to live an exceptional life full of trying new things
+          outside of my comfort zone and mastering them. I thrive when
+          surrounded by like-minded individuals who are open to growing, trying
+          new things, and learning how to succeed at them.
         </p>
       </Box>
       <a>Get to Know Me</a>
@@ -69,7 +83,7 @@ function About() {
         >
           <p>
             I have been happily married to my High School sweetheart, Alyssia,
-            for 5 years
+            for {yearsSince(MARRIED_ON)} years, and we have three kids
           </p>
         </Box>
         <Box
@@ -93,8 +107,8 @@ function About() {
           sx={{ width: { xs: 300, sm: 160, md: 160, lg: 160 } }}
         >
           <p>
-            In my freetime I enjoy cooking, trying new restaurants, coding, and
-            spending time outside
+            In my free time I enjoy cooking, trying new restaurants, coding,
+            fishing, gardening, and spending time outside
           </p>
         </Box>
         <Box
