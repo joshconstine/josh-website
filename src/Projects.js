@@ -5,7 +5,7 @@ function Projects() {
   return (
     <Box className="infoContainer contain ">
       <span id="projects" className="sections heading">
-        Project
+        Projects
       </span>
       <Box className="horizontalLine" />
       <div className="video-responsive">
