@@ -21,19 +21,22 @@ function Experience() {
         </Box>
         <Box
           className="verticalLine"
-          sx={{ backgroundColor: "#282c34", height: 300 }}
+          sx={{ backgroundColor: "#282c34", height: 400 }}
         />
         <Box className="sideBysideR" sx={{ alignItems: "flex-start" }}>
           <Typography variant="p" sx={{ fontSize: 20, paddingTop: 1.5 }}>
             Sorenson Communications
           </Typography>
           <p className="alignL">
-            -Work as a front end developer. Created a customer facing web
-            application using React.js
+            -Full stack engineer building and maintaining enterprise products
           </p>
           <p className="alignL">
-            -Work with a team of developers to create a web application that
-            allows customers to manage their video conferencing services.
+            -Infrastructure as Code specialist, defining and managing cloud
+            resources through code
+          </p>
+          <p className="alignL">
+            -Build and maintain CI/CD pipelines that automate testing and
+            deployment
           </p>
         </Box>
       </Box>

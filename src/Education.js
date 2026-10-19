@@ -28,8 +28,8 @@ function Experience() {
       </Box>
       <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
         <Box className="sideByside">
-          <p className="bold">2023</p>
-          <p>Pursuing Bachelor's Degree</p>
+          <p className="bold">2023-2025</p>
+          <p>Bachelor's Degree Computer Science</p>
         </Box>
         <Box
           className="verticalLine"
@@ -40,7 +40,7 @@ function Experience() {
             San Diego State University
           </Typography>
           <p className="alignL">
-            -Working towards a Bachelor's Degree in Computer Science.
+            -Earned a Bachelor's Degree in Computer Science.
           </p>
           <p className="alignL">
             -Course work includes: Data Structures, Algorithms, software
